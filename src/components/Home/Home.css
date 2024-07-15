@@ -1,0 +1,24 @@
+.slick-prev:before,
+.slick-next:before{
+  color: #a5131a ! important;
+}
+
+.slick-dots li button:before {
+  color: #a5131a ! important;
+}
+
+
+.slideWrap {
+    margin: 5% 30% 10%;
+}
+
+.Face {
+  display: fixed;
+  margin: 1em auto;
+}
+
+.slides {
+  margin: 20px 0 0;
+  text-align: justify;
+}
+

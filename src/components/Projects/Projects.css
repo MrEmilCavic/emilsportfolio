@@ -1,0 +1,49 @@
+.slick-prev:before,
+.slick-next:before {
+  color: #a5131a ! important;
+}
+
+.slider {
+  margin: 5% 20% 5em;
+}
+
+.slider div {
+  text-align: justify;
+}
+
+.slider div h1, h2, h4 {
+  text-align:center;
+}
+
+.slick-dots ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.slider .slick-dots li{
+  width: 100px;
+}
+
+.slider div img {
+  width: 100%;
+}
+
+.descriptionWrap {
+  margin: 0 20% 10em;
+  text-align: justify;
+}
+
+.upNext {
+  margin-top: 15%;
+}
+
+.linkWrap {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.linkWrap img {
+  margin: 0 50%;
+}
