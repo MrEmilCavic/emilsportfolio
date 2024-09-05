@@ -19,15 +19,17 @@ function Header() {
     });
 
     useEffect(() => {
-        const closeMenu = (e) => {
-            if (mobileMenu && !refMenu.current.contains(e.target)) {
-              showMobileMenu(false);
+        if(windowSize < 768) {
+            const closeMenu = (e) => {
+                if (!refMenu.current.contains(e.target)) {
+                showMobileMenu(false);
+                }
             }
-          }
-          document.body.addEventListener("click", closeMenu)
-          return () => {
-            document.body.removeEventListener("click", closeMenu)
-          }
+            document.body.addEventListener("click", closeMenu)
+            return () => {
+                document.body.removeEventListener("click", closeMenu)
+            }
+            }
         },[]);
 
     return (
