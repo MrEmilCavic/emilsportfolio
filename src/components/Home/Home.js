@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
 import "./Home.css";
-import Faceview from '../Header/emilfaceview.png';
+import Profilepic from '../util/portfolioprofile.png';
 
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
                 <div className="One">
                     <h2>Hello and Welcome!</h2>
                     <h3>I am Emil, a guy deeply passionate about Web-App Development.</h3>
-                    <img src={Faceview} className="Face" height="300em" />  
+                    <img src={Profilepic} className="Face" height="300em" />  
                 </div>
                 <div className="slides">
                     Originally from a business administration background I have always loved web development.
@@ -63,7 +63,7 @@ function Home() {
                     has a role to play in the team for the team to win the game. All these components make for a great sport I believe where it takes the sum of all players working together to make
                     a strategy work successfully and when it does, its absoluletly beautiful in its own right!
                 </div>
-                <div>
+                <div className="lastSlide">
                     Do you have any questions? Want to get in touch? Feel free to shoot me a <Link to="/contact">message!</Link>
                 </div>
             </Slider>

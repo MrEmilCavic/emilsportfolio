@@ -90,7 +90,7 @@ function Projects() {
                         Thankfully the rest was quite easy to implement as I had learned and practised a lot of the feautures in 
                         my Full-Stack Dev course on codecademy.
                     </div>
-                    <div class="linkWrap">
+                    <div className="linkWrap">
                     <a href="https://mremilcavic.github.io/emilsJam/" target="_blank">Check out the live site</a> (!important: note due to restrictions on Spotify's side the API works only for users unlocked by me - the free for anyone version is hiding behind a paywall)<br />
                     Check out the code on the github repo: <a href="https://github.com/MrEmilCavic/emilsJam" target="_blank"><img src={Github} alt="githublogo"  width="50px" height="auto"/></a>
                     </div>
@@ -117,7 +117,7 @@ function Projects() {
                     </div>
                     All in all it is a greatly satisfying experience developing this and, as stated in the beginning, there is still more to do. I can't wait to share more about the journey
                     once I have implemented more features!
-                    <div class="linkWrap">
+                    <div className="linkWrap">
                     The live site will be online once all the missing essential features are implemented. Stay tuned! <br />
                     Check out the code on the github repo: <a href="https://github.com/MrEmilCavic/FarmerEmilsWebshop" target="_blank"><img src={Github} alt="githublogo" width="50px" height="auto"/></a>
                     </div>

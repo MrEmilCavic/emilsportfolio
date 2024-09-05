@@ -16,6 +16,10 @@
     width: 100% !important;
 }
 
+.css-13r4j3i .MuiTextField-root {
+    width: 100% !important;
+}
+
 .Contact .socialsWrapper {
     padding: 5em 0;
     display: flex;
@@ -35,4 +39,23 @@
 
 .Contact a:hover {
     filter: invert(18%) sepia(59%) saturate(4178%) hue-rotate(344deg) brightness(75%) contrast(106%);
+}
+
+@media only screen and  (max-width: 768px) {
+    .Contact {
+        margin: 5rem auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .personalWrap {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .css-13r4j3i .MuiTextField-root {
+        width: 90% !important;
+        margin: auto !important;
+    }
+    
 }

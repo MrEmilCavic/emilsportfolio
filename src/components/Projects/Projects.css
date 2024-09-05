@@ -39,11 +39,15 @@
   margin-top: 15%;
 }
 
-.linkWrap {
-  margin-top: 10px;
-  text-align: center;
-}
-
 .linkWrap img {
   margin: 0 50%;
+}
+
+@media only screen and  (max-width: 768px) {
+  .Projects {
+    margin: 5rem auto;
+  }
+  .descriptionWrap{
+    margin: auto 4rem auto;
+  }
 }
