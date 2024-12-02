@@ -1,0 +1,34 @@
+.slick-prev:before,
+.slick-next:before{
+  color: #a5131a ! important;
+}
+
+.slick-dots li button:before {
+  color: #a5131a ! important;
+}
+
+
+.slideWrap {
+    margin: 5% 30% 10%;
+}
+
+.Face {
+  display: fixed;
+  transform: rotate(-5deg);
+  margin: 1em auto;
+}
+
+.slides {
+  margin: 20px 0 0;
+  text-align: justify;
+}
+
+.lastSlide {
+  margin: 20px 0 0;
+}
+
+@media only screen and  (max-width: 768px) {
+  .slideWrap {
+    margin: 4rem 2rem;
+  }
+}

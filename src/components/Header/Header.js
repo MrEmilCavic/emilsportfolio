@@ -26,10 +26,12 @@ function Header() {
                 }
             }
             document.body.addEventListener("click", closeMenu)
+            document.body.addEventListener("touchstart", closeMenu);
             return () => {
                 document.body.removeEventListener("click", closeMenu)
+                document.body.removeEventListener("touchstart", closeMenu);
             }
-            }
+        }
         },[]);
 
     return (
